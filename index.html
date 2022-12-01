@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+    <link rel="icon" href="./asents/avatar-C-1.png">
+</head>
+
+<body>
+    <header id="header" class="cabeçalho">
+
+        <button onclick="toggleSidebar()" class="btn-icon-header1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+        <div class="img-header">
+            <img class="imgjc" src="./asents/Jc-logo-BD.jpg" alt="logo-j-c">
+        </div>
+        <div id="link-header" class="link-header">
+            <button onclick="toggleSidebar()" class="btn-icon-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+
+            <a class="link" href="#inicio">Início</a>
+            <a class="link" href="#sobre-mim">Sobre mim</a>
+            <a class="link" href="#projetos">Projetos</a>
+            <a class="link" href="#habilidades">Habilidades</a>
+            <a class="link" href="#footer">Fale comigo</a>
+        </div>
+    </header>
+    <main id="inicio" class="inicio">
+        <section class="container1">
+            <div class="caixa1">
+                <p class="paragrafo">Olá, eu sou</p>
+                <h1 class="Titulo-1">Jonathan Cirqueira.</h1>
+                <p id="paragrafo-desenvolvedor" class="paragrafo">Desenvolvedor Front-end</p>
+                <a href="https://www.linkedin.com/in/jonathan-cirqueira-9a095a238/" target="_blank">
+                    <button class="botao-lk">Linkedin</button>
+                </a>
+            </div>
+            <div class="caixa2-img">
+                <img class="img-avatar" src="./asents/avatar-C-1.png" alt="avatar-jonathan-cirqueira">
+            </div>
+        </section>
+        <section id="sobre-mim" class="container2">
+            <div class="avatar2">
+                <img id="img-avatar2" class="img-avatar" src="./asents/avatr-C-2.png" alt="avatar-jonathan-cirqueira">
+            </div>
+            <div class="sobre-mim">
+                <h1 class="titulo-2">Sobre mim</h1>
+                <p class="paragrafo-2">Meu nome é <strong>Jonathan cirqueira</strong> e eu sou um apaixonado por
+                    tecnologia que decidiu
+                    trilhar o caminho da programação, Possuo experiência em Desenvolvimento Web, atualmente estou
+                    focando nas tecnologias
+                    voltadas ao FrontEnd.</p>
+            </div>
+
+        </section>
+        <section id="projetos" class="principal-projetos">
+            <h1 class="titulo">Projetos</h1>
+            <div class="projetos">
+
+                <a href="https://jonathancirqueira.github.io/Conversor-de-moedas/" target="_blank">
+                    <div class="caixa-projetos">
+                        <img class="projetos-img2" src="./asents/conversor-de-moedas-P.png" alt="imagem-comversor-de-moedas">
+                    </div>
+                </a>
+
+                <a href="https://jonathancirqueira.github.io/formulario-I/" target="_blank">
+                    <div class="caixa-projetos">
+                        <img class="projetos-img2" src="./asents/Formulário-P.png" alt="imagem-formulário">
+                    </div>
+                </a>
+
+                <a href="https://jonathancirqueira.github.io/Calculadora.Black/" target="_blank">
+                    <div class="caixa-projetos">
+                        <img class="projetos-img2" src="./asents/Calculadora-P.png" alt="imagem-calculadora">
+                    </div>
+                </a>
+                <a href="https://jonathancirqueira.github.io/2-projeto-css/" target="_blank">
+                <div id="projetos-img" class="caixa-projetos">
+                    <img class="projetos-img2"
+                            src="./asents/loading-page.png" alt="imagem-loading-page">
+                </div>
+            </a>
+                <div id="projetos-img" class="caixa-projetos">Em breve</div>
+                <div id="projetos-img" class="caixa-projetos">Em breve</div>
+            </div>
+
+        </section>
+        <section id="habilidades" class="habilidades">
+            <h1 class="titulo">Habilidades</h1>
+            <div class="habilidades-p">
+                <div id="caixa-hb-js" class="caixa-hb">
+                    <img class="img-logoJ" src="./asents/JavaScript.png" alt="logo-javascript">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">Java Script</h2>
+                    <p class="p-habilidade">È uma linguagem de programação que permite a você implementar itens
+                        complexos em páginas web.</p>
+                </div>
+                <div class="caixa-hb">
+                    <img class="img-logo" src="./asents/logo-html-s-f.png" alt="logo-html">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">Html</h2>
+                    <p class="p-habilidade">È uma linguagem de marcação de hipertexto, ele permite inserir o conteúdo e
+                        estabelecer a estrutura
+                        básica de um website.</p>
+                </div>
+                <div class="caixa-hb">
+                    <img class="img-logoC" src="./asents/CSS3_logo.svg-s-f.png" alt="logo-css">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">Css</h2>
+                    <p class="p-habilidade">È a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em
+                        Cascatas. É uma maneira de dar
+                        estilo ao código criado por linguagens como HTML, por exemplo. De forma prática, ela
+                        funciona como uma camada de personalização ao conteúdo visível.</p>
+                </div>
+                <div class="caixa-hb">
+                    <img class="img-logo" src="./asents/logo-react-S-F.png" alt="logo-react">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">React JS</h2>
+                    <p class="p-habilidade">È uma biblioteca JavaScript criado em 2011 pelo time do Facebook, o React
+                        surgiu com o objetivo de
+                        otimizar a atualização e a
+                        sincronização de atividades simultâneas no feed de notícias da rede social, entre eles chat,
+                        status,
+                        listagem de contatos e outros.</p>
+                </div>
+                <div class="caixa-hb">
+                    <img class="img-logo" src="./asents/Git.png" alt="logo-git">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">Git</h2>
+                    <p class="p-habilidade"> È um sistema de controle de versões distribuído, usado principalmente no
+                        desenvolvimento de
+                        software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo
+                    </p>
+                </div>
+                <div class="caixa-hb">
+                    <img class="img-logo" src="./asents/Github-png-SF.png" alt="logo-github">
+                </div>
+                <div class="habilidae-texto">
+                    <h2 class="titulo-habilidades">Git-Hub</h2>
+                    <p class="p-habilidade">È o maior repositório de dados compartilhado do mundo, com 28 milhões de
+                        usuários atualmente.uma
+                        plataforma majoritariamente usada por desenvolvedores, pois permite uma hospedagem prática de
+                        código-fonte e arquivos em nuvem. </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <div class="p-rodape">
+            <p class="paragrafo-rodape" id="footer">Email para contato: jonathancirqueira96@gmail.com</p>
+            <p class="paragrafo-rodape">Telefone: +55 (11)94000-1126</p>
+            <br>
+            <p class="paragrafo-rodape-d">Desenvolvedor: Jonathan Cirqueira</p>
+        </div>
+        <div class="img-rodape">
+            <a href="https://github.com/JonathanCirqueira" target="_blank">
+                <img class="img-github" src="./asents/GitHub-Mark-rodape.png" alt="logo-github">
+            </a>
+            <a href="https://www.linkedin.com/in/jonathan-cirqueira-9a095a238/" target="_blank">
+                <img class="img-linkedin" src="./asents/logo-linkedin-color.png" alt="logo-linkedinff">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script src="./script.js"></script>
+
+</html>
