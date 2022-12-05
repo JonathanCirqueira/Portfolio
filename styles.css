@@ -425,7 +425,7 @@ body {
         color: #f3d80e;
         font-family: 'Anton', sans-serif;
         padding: 35px;
-        padding-top: 60px;
+      padding-bottom: 90px;
     }
 
     .titulo-2 {
@@ -438,7 +438,7 @@ body {
     }
 
     .img-avatar {
-        width: 350px;
+        width: 300px;
         margin-left: 35px;
         padding-top: 17px;
     }
@@ -446,7 +446,7 @@ body {
     #img-avatar2 {
         margin-right: 35px;
         padding-top: 0px;
-        margin-top: -36px;
+        margin-top: -87px;
     }
 
     .caixa1 {
@@ -455,7 +455,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding-left: 0px;
-        padding-top: 80px;
+        padding-top: 20px;
     }
 
     .botao-lk {
