@@ -32,6 +32,22 @@ sr.reveal('.caixa1', {
         }
     };
 
+    function closeSidebar()
+    {
+        if (showSidebar)
+        {
+            toggleSidebar();
+        }
+    };
+    window.addEventListener('resize',function (event){
+        if (window.innerWidth > 700 && showSidebar)
+        {
+            toggleSidebar();
+        }
+    })
+
+    
+
 
     VanillaTilt.init(document.querySelectorAll(".caixa-projetos"), {
 		max: 25,
@@ -58,6 +74,8 @@ sr.reveal('.caixa1', {
         })
 
     };
+
+
 
     
     

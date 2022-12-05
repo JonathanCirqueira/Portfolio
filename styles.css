@@ -425,26 +425,28 @@ body {
         color: #f3d80e;
         font-family: 'Anton', sans-serif;
         padding: 35px;
+        padding-top: 60px;
     }
 
     .titulo-2 {
         display: flex;
         font-size: 30px;
         color: #ffffff;
+        padding-top: 40px;
 
 
     }
 
     .img-avatar {
-        width: 300px;
+        width: 350px;
         margin-left: 35px;
-        padding-top: 31px;
+        padding-top: 107px;
     }
 
     #img-avatar2 {
         margin-right: 35px;
         padding-top: 0px;
-
+        margin-top: 55px;
     }
 
     .caixa1 {
@@ -457,13 +459,12 @@ body {
     }
 
     .botao-lk {
-        width: 180px;
-        height: 40px;
+        width: 209px;
+        height: 49px;
         cursor: pointer;
-        margin-top: 10px;
+        margin-top: 55px;
         border-radius: 25px;
-        font-size: 10px;
-
+        font-size: 15px;
     }
 
     .Titulo-1 {
@@ -605,26 +606,20 @@ body {
         width: 50px;
         margin-left: 30px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
-@media screen and (max-width:390px) {
-    .img-avatar {
-        width: 400px;
-        margin-left: 35px;
-        padding-top: 110px;}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes showSidebar {
     from {
