@@ -342,6 +342,7 @@ body {
 
 
 
+
 @media screen and (max-width:890px) {
 
     .cabeçalho {
@@ -626,5 +627,12 @@ body {
     top {
         margin-left: 0vw;
     }
+
+}
+@media screen and (max-width:390px) {
+    .img-avatar {
+        width: 400px;
+        margin-left: 35px;
+        padding-top: 110px;}
 
 }
